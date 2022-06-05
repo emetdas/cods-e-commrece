@@ -1,4 +1,4 @@
-## Responsive E-commrece Website Using HTML SASS & Javascript
+## Complete Ecommerce Website Using HTML SASS & Javascript.
 
 ### [🔗 Visit Live Demo](https://ecommerce-cods.netlify.app/)
 
