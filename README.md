@@ -2,7 +2,7 @@
 
 ### [🔗 Visit Live Demo](https://ecommerce-cods.netlify.app/)
 
-### [⏯ Watch On Youtube](https://youtu.be/pp1TFz7z_1k)
+### [⏯ Watch On Youtube | Part 01](https://youtu.be/ZNPOW-ul5_8)
 
 
 ![thumbnail](thumbnail.png)
