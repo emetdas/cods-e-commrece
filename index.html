@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-commerce | cods</title>
+    <link rel="shortcut icon" href="images/avatar.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <input type="text" class="search" placeholder="Search Product" />
+        <ion-icon name="options-outline"></ion-icon>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="heading">Trending Products</h1>
+    </div>
+    <section id="main">
+      <div class="container">
+        <div class="main-content">
+          <!-- Products-section-start -->
+          <div class="products"></div>
+          <!-- Products-section-end -->
+          <!-- sidebar-section-end -->
+          <div class="sidebar close">
+            <ul class="sidebar-icons">
+              <li class="sidebar-icon">
+                <a href="#!">
+                  <ion-icon name="heart-outline"></ion-icon>
+                  <span class="sidebar-icon-name">Wishlist</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <a href="#!">
+                  <ion-icon name="wallet-outline"></ion-icon>
+                  <span class="sidebar-icon-name">Wallet</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <a href="" class="btn-toggle-cart-list">
+                  <ion-icon name="cart-outline"></ion-icon>
+                  <span class="cart-badge">0</span>
+                  <span class="sidebar-icon-name">Cart</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <div class="profile">
+                  <img src="images/avatar.svg" alt="Profile" class="profile-img" />
+                  <span class="sidebar-icon-name">Cods</span>
+                </div>
+              </li>
+              <li class="sidebar-icon">
+                <a href="" class="theme_toggle">
+                  <ion-icon name="sunny-outline"></ion-icon>
+                  <span class="sidebar-icon-name">Light</span>
+                </a>
+              </li>
+              <li class="sidebar-icon">
+                <div class="sidebar-arrow">
+                  <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- sidebar-section-end -->
+          <!-- Cart-product-list-section-start -->
+          <div class="cart-product-list">
+            <div class="icon-cart-close">
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
+            <div class="list-of-product"></div>
+            <div class="calculate">
+              <h3 class="total-price"></h3>
+              <button class="btn-checkout" disabled>Checkout</button>
+            </div>
+          </div>
+          <!-- Cart-product-list-section-end -->
+        </div>
+      </div>
+    </section>
+    <!-- Error -->
+    <div class="cart-error"></div>
+    <!-- Error -->
+    <!-- Javascript -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

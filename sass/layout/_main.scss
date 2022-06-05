@@ -1,0 +1,8 @@
+@import '../components/searchbar';
+@import '../components/card';
+@import '../components/sidebar';
+.main-content {
+  @include media(max, 768) {
+    padding-bottom: 9rem;
+  }
+}

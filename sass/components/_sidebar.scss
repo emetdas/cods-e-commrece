@@ -1,0 +1,125 @@
+.sidebar {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  width: 15rem;
+  min-height: 55rem;
+  max-height: calc(100vh - 4rem);
+  transition: var(--transition);
+  @include media(max, 1175) {
+    left: 1rem;
+  }
+  @include media(max, 768) {
+    all: unset;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    z-index: 200;
+    & .sidebar-icon:last-child {
+      display: none !important;
+    }
+  }
+  &.close {
+    width: 7rem;
+    transition: var(--transition);
+    & .sidebar-icon-name {
+      opacity: 0;
+      transition: var(--transition);
+    }
+  }
+  & .sidebar-icons {
+    min-height: 55rem;
+    max-height: calc(100vh - 4rem);
+    background: var(--primary);
+    padding: 2rem;
+    margin: 0 auto;
+    border: var(--border);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2rem;
+    overflow-x: hidden;
+    @include media(max, 768) {
+      all: unset;
+      width: 100%;
+      position: fixed;
+      bottom: -0.2rem;
+      right: 0;
+      left: 0;
+      height: 8rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--primary);
+      border-top-left-radius: 2rem;
+      border-top-right-radius: 2rem;
+    }
+    & .sidebar-icon {
+      cursor: pointer;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      @include media(max, 768) {
+        justify-content: center;
+      }
+      & a {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        @include media(max, 768) {
+          gap: 1rem;
+        }
+      }
+      & ion-icon {
+        font-size: 3rem;
+      }
+      & .sidebar-icon-name {
+        color: var(--text);
+        font-weight: 600;
+        transition: var(--transition);
+        @include media(max, 768) {
+          display: none;
+        }
+      }
+      & .profile {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        & img {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+      }
+      & .sidebar-arrow {
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: var(--shadow);
+        padding: 0.5rem;
+        border-radius: 50%;
+      }
+      & .btn-toggle-cart-list {
+        position: relative;
+        & .cart-badge {
+          background: var(--cart-badge);
+          position: absolute;
+          left: 1.5rem;
+          top: -2.3rem;
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          color: var(--white);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

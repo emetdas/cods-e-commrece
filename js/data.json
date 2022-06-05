@@ -1,0 +1,66 @@
+{
+  "product": [{
+      "img": "../images/product-1.png",
+      "name": "Nike React Miler",
+      "description": "Men’ s Road Running shoes",
+      "sizes": "4 - Sizes available",
+      "category": "shoes",
+      "instock": 5,
+      "price": 500,
+      "color_switch": ["#FFFFFF", "#21446D", "#000000"]
+    },
+    {
+      "img": "../images/product-2.png",
+      "name": "Apple  Macbook Air",
+      "description": "Apple M1 Chip with 8‑Core CPU and 8‑Core GPU 512GB Storage",
+      "category": "laptop",
+      "instock": 5,
+      "offer": 25,
+      "price": 10600,
+      "color_switch": ["#C9C9C9", "#929292", "#F1E2D4"]
+    },
+    {
+      "img": "../images/product-3.png",
+      "name": "Apple Watch Series 7",
+      "description": "Midnight Alumium Case with Sports Band",
+      "category": "watch",
+      "instock": 5,
+      "offer": 25,
+      "price": 500,
+      "color_switch": ["#FFFFFF", "#304A23", "#000000", "#AF0303"]
+    },
+    {
+      "img": "../images/product-4.png",
+      "name": "Nike Air Force 1",
+      "description": "Men’s Road Running shoes",
+      "sizes": "3 - Sizes available",
+      "category": "shoes",
+      "instock": 10,
+      "offer": 50,
+      "price": 300,
+      "color_switch": ["#FFFFFF", "#626262", "#000000"]
+    },
+    {
+      "img": "../images/product-5.png",
+      "name": "Apple iPhone 12 Pro Max, 128GB, Pacific Blue - Unlocked (Renewed Premium)",
+      "description": "iPhone 12 Pro Max Features. There are four new iPhone models in the fall lineup, with the iPhone 12 Pro Max standing as the larger of the two pro-level models. This device has a bigger 6.7-inch Super Retina XDR display compared to the iPhone 11 Pro Max. It also has a triple-camera system and LiDAR.",
+      "sizes": "3 - Sizes available",
+      "category": "mobile",
+      "instock": 30,
+      "offer": 10,
+      "price": 1050,
+      "color_switch": ["#FFFFFF", "#626262", "#000000"]
+    },
+    {
+      "img": "../images/product-6.png",
+      "name": "SAMSUNG J791 Series 34-Inch Ultrawide QHD (3440x1440) Computer Monitor",
+      "description": "First Curved monitor with Intel Thunderbolt 3 for single-source power and charging One cable to Link and dock monitor and laptop Tbt3 offers 40 Gaps processing speed - - 4x faster than USB - - and up to 85W laptop charging",
+      "sizes": "3 - Sizes available",
+      "category": "monitor",
+      "instock": 20,
+      "offer": 35,
+      "price": 700,
+      "color_switch": ["#f8e7e0", "#626262", "#333333"]
+    }
+  ]
+}
