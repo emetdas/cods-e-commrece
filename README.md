@@ -7,6 +7,9 @@
 ### [⏯ Watch On Youtube | Part 02]()
 
 
-![thumbnail](thumbnail.png)
+![thumbnail](thumbnail-01.png)
+
+![thumbnail](thumbnail-02.png)
+
 
 ----------
